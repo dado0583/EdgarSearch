@@ -1,0 +1,940 @@
+Company Name,Public/Private,Ticker,Industry,CIK
+Intelsat Jackson,Public,SPOT,CME,0001037388
+Pfizer,Public,PFE,Healthcare,0000078003
+Endo Pharmaceuticals,Public,ENDP,Healthcare,0001593034
+Jarden Corp,Public,JAH,Consumer/Retail,0000895655
+Armored AutoGroup,Private,,Consumer/Retail,
+Phillips-Van Heusen,Public,PVH,Consumer/Retail,0000078239
+Universal Health Services,Public,UHS,Healthcare,0000352915
+CSG Systems,Public,CSGS,Tech,0001005757
+Transtar,Private,,Industrials,
+Thermadyne,Private,,Industrials,
+Hersheys,Public,HSY,Consumer/Retail,0000047111
+Masco,Public,MAS,Industrials,0000062996
+Hanger Orthopedic,Public,HGR,Healthcare,0000722723
+Tyson Foods,Public,TSN,Consumer/Retail,0000100493
+Pitney Bowes,Public,PBI,Industrials,0000078814
+SoftLayer,Private,,CME,
+Alliance Data Systems,Public,ADS,Tech,0001101215
+Conway,Public,CNW,Transportation,0000023675
+Starwood,Public,HOT,Real Estate,0000316206
+Retail Opportunity Investments,Public,ROIC,Real Estate,0001407623
+"UDR, Inc.",Public,UDR,Real Estate,0000074208
+Micro Focus International,Public,MCRO LN,Tech,0001359711
+Aviv Financing,Public,AVI,Real Estate,0001499686
+Americold Realty,Public,ACRE,Real Estate,0001529377
+Fresenius,Public,FMCQF,Healthcare,0001333141
+ViaWest,Private,,CME,
+Boston Scientific,Public,BSX,Healthcare,0000885725
+Res-Care,Public,RSCR,Healthcare,0000776325
+US Renal Care,Private,,Healthcare,
+IMS Health,Public,RX,Tech,0001058083
+Integra Life Sciences,Public,IART,Healthcare,0000917520
+HCA,Public,HCA,Healthcare,0000860730
+BMC Software,Public,BMC,Tech,0000835729
+Richmond Honan Medical,Public,MOB,Real Estate,0001498345
+"800 Cottontail, LLC",Private,,Real Estate,
+Peak 10,Private,,CME,
+DSI Renal,Private,,Healthcare,
+Carter's,Public,CRI,Consumer/Retail,0001060822
+Alere,Public,ALR,Healthcare,0001145460
+Dow Chemical,Public,DOW,Industrials,0000029915
+Getty Images,Public,GYI,CME,0001047202
+Golden Living,Private,,Healthcare,
+Goodman Global,Public,GGL,Industrials,0001314655
+Internet Brands,Public,INET,Tech,0001080131
+Medical Properties Trust,Public,MPW,Real Estate,0001287865
+American Rock Salt,Private,,Industrials,
+Select Staffing,Private,,Tech,
+Grede Holdings,Private,,Industrials,
+PTC Inc.,Public,PTC,Tech,0000857005
+Sterigenics (STHI),Public,STER,Healthcare,0001009988
+Genex,Private,,Healthcare,
+Easterly Government Properties,Public,DEA,Real Estate,0001622194
+Education Realty Trust,Public,EDR,Real Estate,0001302343
+EPR Properties,Public,EPR,Real Estate,0001045450
+Equity Commonwealth REIT,Public,EQC,Real Estate,0000803649
+First Potomac,Public,FPO,Real Estate,0001254595
+Five Star,Public,FVE,Real Estate,0001159281
+Getty Realty,Public,GTY,Real Estate,0001052752
+Gramercy Property Trust,Public,GPT,Real Estate,0001297587
+HCP,Public,HCP,Real Estate,0000765880
+Healthcare Realty Trust,Public,HR,Real Estate,0000899749
+Hudson Pacific,Public,HPP,Real Estate,0001482512
+IO Data Centers,Private,,Real Estate,
+Arc Logistics Partners,Public,ARCX,Energy,0001583744
+Atlas Resource Partners Lp,Public,ARP,Energy,0001532750
+"Axeon Refining, Llc",Private,,Energy,
+"Baker Hughes, Inc.",Public,BHI,Energy,0000808362
+Blue Racer Midstream Llc,Private,,Energy,
+Blueknight Energy Partners,Public,BKEP,Energy,0001392091
+"Bonanza Creek Energy, Inc.",Public,BCEI,Energy,0001509589
+"Breitburn Energy Partners, Lp",Public,BBEP,Energy,0001357371
+Buckeye Partners L.P.,Public,BPL,Energy,0000805022
+"Caelus Energy Alaska O3, Llc",Private,,Energy,
+Callon Petroleum Company,Public,CPE,Energy,0000928022
+Calumet Specialty Prod Ptnrs,Public,CLMT,Energy,0001340122
+"Canyon Midstream Partners, Llc",Private,,Energy,
+"Cardinal Pipeline Company, Llc",Private,,Energy,
+"Carrizo Oil & Gas, Inc.",Public,CRZO,Energy,0001040593
+Cgg,Public,CGG,Energy,0001037962
+"Chaparral Energy, Inc.",Public,CPR,Energy,0001346980
+"Cheniere Energy, Inc",Public,LNG,Energy,0000003570
+Chevron Corporation,Public,CVX,Energy,0000093410
+Citrus Corp.,Private,,Energy,
+Civeo Corporation,Public,CVEO,Energy,0001590584
+Cloud Peak Energy Inc.,Public,CLD,Energy,0001441849
+"Concho Resources, Inc.",Public,CXO,Energy,0001358071
+"Cone Midstream Partners, Lp",Public,CNNX,Energy,0001610418
+Sunoco LP,Public,SUN,Energy,0001552275
+FCALT 2014-CLF3,Private,,Securitization,
+Leidos Holdings,Public,LDOS,Aerospace,0001336920
+M.Y. Safra Bank,Private,,FIG,
+Blackstone Investments I Ltd,Private,,FIG,
+Phillips 66 Partners,Public,PSXP,Energy,0001572910
+Polymer Group,Public,POLGA,Industrials,0000927417
+Skype,Private,,CME,
+Spirit Aerosystems,Public,SPR,Aerospace,0001364885
+Tomkins,Public,TOMK,Industrials,
+B&G Foods,Public,BGS,Consumer/Retail,0001278027
+CVS Health,Public,CVS,Consumer/Retail,0000064803
+Cisco,Public,CSCO,Tech,0000858877
+Oracle,Public,ORCL,Tech,0001341439
+CyrusOne,Public,CONE,Real Estate,0001553023
+Emerson Electric,Public,EMR,Industrials,0000032604
+Home Depot,Public,HD,Consumer/Retail,0000354950
+Mattel,Public,MAT,Consumer/Retail,0000063276
+McDonalds,Public,MCD,Consumer/Retail,0000063908
+Newell Brands,Public,NWL,Consumer/Retail,0000814453
+Procter & Gamble,Public,PG,Consumer/Retail,0000080424
+RadNet,Public,RDNT,Healthcare,0000790526
+RedPrairie,Private,,Tech,
+United Natural Foods,Public,UNFI,Consumer/Retail,0001020859
+CKE Restaurants,Public,CKR,Consumer/Retail,0000919628
+Brookdale Senior Living,Public,BKD,Real Estate,0001332349
+Acadia Healthcare,Public,ACHC,Healthcare,0001520697
+HealthSouth,Public,HLS,Healthcare,0000785161
+USG Corporation,Public,USG,Industrials,0000757011
+American Assets Trust,Public,AAT,Real Estate,0001500217
+American Campus Commmunities,Public,ACC,Real Estate,0001283630
+Alexandria Real Estate,Public,ARE,Real Estate,0001035443
+Ashford Hospitality Trust,Public,AHT,Real Estate,0001232582
+Campus Crest Communities,Public,CCG,Real Estate,0001490983
+Strategic Hotels and Resorts,Public,BEE,Real Estate,0001057436
+Weingarten Realty Investors,Public,WRI,Real Estate,0000828916
+Simon Property Group,Public,SPG,Real Estate,0001063761
+Unite Private Networks,Private,,CME,
+Tanger Factory Outlet Centers,Public,SKT,Real Estate,0000899715
+Ventas,Public,VTR,Real Estate,0000740260
+Travel Centers of America,Public,TA,Real Estate,0001378453
+Stag Industrial Inc,Public,STAG,Real Estate,0001479094
+Senior Housing Property Trust,Public,SNH,Real Estate,0001075415
+Sabra Health Care REIT,Public,SBRA,Real Estate,0001492298
+Regency Centers,Public,REG,Real Estate,0000910606
+Quality Tech,Private,,Real Estate,
+Prologis,Public,PLD,Real Estate,0001045609
+Pebblebrook Hotel Trust,Public,PEB,Real Estate,0001474098
+Pacific Premier Retail Trust,Private,,Real Estate,
+National Retail Properties,Public,NNN,Real Estate,0000751364
+LTC Properties,Public,LTC,Real Estate,0000887905
+Lexington Retail Trust,Public,LXP,Real Estate,0000910108
+Kite Realty,Public,KRG,Real Estate,0001286043
+Kilroy Realty,Public,KRC,Real Estate,0001025996
+Keystone Industrial Fund,Public,KTR,Real Estate,0000906113
+Interstate Hotels & Resorts,Public,IHR,Real Estate,0001059341
+Retail Properties of America,Public,RPAI,Real Estate,0001222840
+Hospitality Properties Trust,Public,HPT,Real Estate,0000945394
+Government Properties Income Trust,Public,GOV,Real Estate,0001456772
+Federal Realty Investment Trust,Public,FRT,Real Estate,0000034903
+Entertainment Properties Trust,Public,EPR,Real Estate,0001045450
+Duke Realty Trust,Public,DRE,Real Estate,0000783280
+ECM Realty Trust,Public,ECMR,Real Estate,0001499043
+Dupont Fabros,Public,DFT,Real Estate,0001407739
+Digital Realty Trust,Public,DLR,Real Estate,0001297996
+Developers Diversified Realty,Public,DDR,Real Estate,0000894315
+Corporate Office Properties,Public,OFC,Real Estate,0000860546
+Coresite Realty Trust,Public,COR,Real Estate,0001490892
+Commonwealth REIT,Public,CWH,Real Estate,0001669779
+Clearview Hotel Trust,Public,CVW,Real Estate,0001490985
+Cedar Shopping Center,Public,CDR,Real Estate,0000761648
+CBL & Associates,Public,CBL,Real Estate,0000910612
+Triumph Group,Public,TGI,Aerospace,0001021162
+Community Health Systems,Public,CYH,Healthcare,0001108109
+Computer Associates,Public,CA,Tech,0000356028
+Sally Beauty,Public,SBH,Consumer/Retail,0001368458
+JBS USA,Public,JBS,Consumer/Retail,0001467955
+"PSC, LLC",Private,,Industrials,
+Vertafore,Private,,Tech,
+Hewlett Packard Inc.,Public,HP,Tech,0000046765
+Bankrate,Public,RATE,Tech,0001518222
+Dell,Public,DELL,Tech,0000826083
+American Tire Distributors,Public,ATD,Transportation,0001610400
+Interpublic Group,Public,IPG,CME,0000051644
+Kimberly Clark,Public,KMB,Consumer/Retail,0000055785
+Reynolds American,Public,RAI,Consumer/Retail,0001275283
+Web.com,Public,WWW,Tech,0000110471
+Universal Hospital Services,Public,UHOS,Healthcare,0000886171
+Coty Inc.,Public,COTY,Consumer/Retail,0001024305
+SunGard,Private,,Tech,
+PDL BioPharma,Public,PDLI,Healthcare,0000882104
+Republic Services,Public,RSG,Industrials,0001060391
+Providence Service Corporation,Public,PRSC,Healthcare,0001220754
+Arrowhead General,Private,,FIG,
+Pacific Architects and Engineers,Private,,Aerospace,
+Coca-Cola,Public,KO,Consumer/Retail,0000021344
+Trader Corporation,Private,,CME,
+Belfor,Private,,Industrials,
+Carnival,Public,CCL,Real Estate,0000815097
+SureWest Communications,Public,SURW,CME,0000943117
+Kirby Corp,Public,KEX,Transportation,0000056047
+Verint,Public,VRNT,Tech,0001166388
+Johnson & Johnson,Public,JNJ,Healthcare,0000200406
+Alcoa,Public,AA,Industrials,0000004281
+iPayment,Public,IPMT,Tech,0001140184
+Artel,Private,,Aerospace,
+Nordstrom,Public,JWN,Consumer/Retail,0000072333
+LegalShield,Public,PPD,CME,0000311657
+Sensata Technologies,Public,ST,Industrials,0001477294
+Autopistas,Private,,Infrastructure,
+Wesco Aircraft,Public,WAIR,Aerospace,0001378718
+Select Medical,Public,SEM,Healthcare,0001320414
+Honeywell International,Public,HON,Industrials,0000773840
+Infor,Private,,Tech,
+Equity Residential,Public,EQR,Real Estate,0000906107
+Go Daddy,Public,DADY,Tech,0001362108
+First Quality Group of Companies,Private,,Consumer/Retail,
+Masonite,Public,DOOR,Industrials,0000893691
+Molson Coors Brewing Company,Public,TAP,Consumer/Retail,0000024545
+CR Bard,Public,BCR,Healthcare,0000009892
+RentPath,Private,,Tech,
+Ipreo,Private,,Tech,
+Flowers Foods,Public,FLO,Consumer/Retail,0001128928
+Roper Industries,Public,ROP,Industrials,0000882835
+Life Time Fitness,Public,LTM,Consumer/Retail,0001076195
+Middleby Corp,Public,MIDD,Industrials,0000769520
+Actuant,Public,ATU,Industrials,0000006955
+Arch Coal,Public,ACI,Industrials,0001037676
+Du Pont De Nemours,Public,DD,Industrials,0000030554
+AWAS Aviation Trading Limited,Public,AWAS,Leasing,
+Air Lease Corporation,Public,AL,Leasing,0001487712
+BE Aerospace,Public,BEAV,Aerospace,0000861361
+Boeing,Public,BA,Aerospace,0000012927
+CACI International,Public,CACI,Aerospace,0000016058
+Moog Inc,Public,MOG/A,Aerospace,0000067887
+Bristol-Myers Squibb,Public,BMY,Healthcare,0000014272
+Francesca's Holdings,Public,FRAN,Consumer/Retail,0001399935
+Nike,Public,NKE,Consumer/Retail,0000320187
+Target,Public,TGT,Consumer/Retail,0000027419
+Texas Roadhouse,Public,TXRH,Consumer/Retail,0001289460
+Teva Pharmaceuticals,Public,TEVA,Healthcare,0000818686
+Telx Group,Public,TELX,CME,0001484427
+Brock Group,Private,,Industrials,
+Swift Transportation,Public,SWFT,Transportation,0001492691
+New Breed,Private,,Transportation,
+New Century Transportation,Public,NCTX,Transportation,0001497599
+Equity Lifestyle Properties,Public,ELS,Real Estate,0000895417
+KIMCO,Public,KIM,Real Estate,0000879101
+Washington REIT,Public,WRE,Real Estate,0000104894
+Summit Hotel Properties,Public,INN,Real Estate,0001497645
+RLJ Lodging Trust,Public,RLJ,Real Estate,0001511337
+Macerich,Public,MAC,Real Estate,0000912242
+Chesapeake Lodging Trust,Public,CHSP,Real Estate,0001473078
+Bojangles,Public,BOJA,Consumer/Retail,0001630132
+Renaissance Learning,Public,RLRN,Tech,0001030484
+Lockheed Martin,Public,LMT,Aerospace,0000936468
+Immucor,Public,BLUD,Healthcare,0000736822
+MSG Nutritional,Private,,Consumer/Retail,
+Hussmann International,Private,,Industrials,
+Expedia,Public,EXPE,Tech,0001324424
+TripAdvisor,Public,TRIP,Tech,0001526520
+Express Scripts,Public,ESRX,Healthcare,0001532063
+Quality Distribution,Public,QLTY,Transportation,0000922863
+Welltower,Public,HCN,Real Estate,0000766704
+NCR Corporation,Public,NCR,Tech,0000070866
+DataBank,Private,,CME,
+Cantor Commercial Real Estate,Private,,Real Estate,
+Kinetic Concepts (Acelity),Public,KCI,Healthcare,0000831967
+Gilead Sciences,Public,GILD,Healthcare,0000882095
+United Technologies,Public,UTX,Aerospace,0000101829
+Triton Container,Private,,Industrials,
+Open Text,Public,OTEX,Tech,0001002638
+Host Hotels & Resorts,Public,HST,Real Estate,0001070750
+99 Cents Only Stores,Public,NDN,Consumer/Retail,0001011290
+Genesys Telecommunications Labs,Public,GCTI,Tech,0001577162
+Clorox Company,Public,CLX,Consumer/Retail,0000021076
+Brookfield Asset Management,Public,BAM,Real Estate,0001001085
+eBay,Public,EBAY,Tech,0001065088
+Kraft Heinz,Public,KHC,Consumer/Retail,0001637459
+TAL International,Public,TAL,Transportation,0001331745
+Verifone,Public,VFI,Tech,0000820580
+Valeant Pharmaceuticals,Public,VRX,Healthcare,0000885590
+RegionalCare Hospital,Private,,Healthcare,
+Zimmer Holdings,Public,ZBH,Healthcare,0001136869
+Vantage Data Centers,Private,,Real Estate,
+Cardone Industries,Private,,Auto,
+Abbott Laboratories,Public,ABT,Healthcare,0000001800
+Tenet Healthcare,Public,THC,Healthcare,0000070318
+Lightower Fiber Networks,Private,,CME,
+Meritor,Public,MTOR,Auto,0001113256
+High Liner Foods,Public,HLF CN,Consumer/Retail,
+Brandywine Realty Trust,Public,BDN,Real Estate,0000790816
+Highwoods Properties,Public,HIW,Real Estate,0000921082
+Home Properties,Public,HME,Real Estate,0000923118
+Lear Corp,Public,LEA,Auto,0000842162
+Prestige Brands,Public,PBH,Consumer/Retail,0001295947
+Cabela's,Public,CAB,Consumer/Retail,0001267130
+Levi Strauss,Private,,Consumer/Retail,
+World Courier Group,Private,,Transportation,
+Vantage Specialties,Private,,Industrials,
+Kroger,Public,KR,Consumer/Retail,0000056873
+Biomet,Public,BMET,Healthcare,0001402366
+Aviation Capital,Public,ACG,Leasing,
+Transdigm,Public,TDG,Aerospace,0001260221
+Huntsman,Public,HUN,Industrials,0001307954
+Cubesmart,Public,CUBE,Real Estate,0001298675
+DJO Global,Private,,Healthcare,
+Telesat Canada,Private,,CME,
+Prospect Medical,Public,PZZ,Healthcare,0001063561
+Parkway Properties,Public,PKY,Real Estate,0000729237
+KKR Natural Resources,Private,,Energy,
+Snap-On Inc,Public,SNA,Industrials,0000091440
+Colfax,Public,CFX,Industrials,0001420800
+Demand Media,Public,DMD,CME,0001365038
+WideOpenWest,Public,WOW,CME,
+Hub International,Public,HBG,FIG,0001133016
+Pinnacle,Private,,Tech,
+Rentech Nitrogen,Public,RNF,Industrials,0001525998
+Wilton Re,Private,,FIG,
+Physio-Control,Private,,Healthcare,
+Envision Healthcare,Private,,Healthcare,
+Steward Health Care System,Private,,Healthcare,
+Milacron,Public,MCRN,Industrials,0001637913
+Sports Authority,Public,TSA,Consumer/Retail,0000912262
+MacDermid Group,Public,MRD,Industrials,0001599222
+Jazz Pharmaceuticals,Public,JAZZ,Healthcare,0001232524
+Camp Systems,Private,,Aerospace,
+NCI Building Systems,Public,NCS,Industrials,0000883902
+MOSAID Technologies Inc,Private,,Tech,
+BOP Metro Park LLC,Private,,Real Estate,
+Cotiviti (formerly Connolly),Public,COTV,Healthcare,0001657197
+Intelligrated,Private,,Industrials,
+Neustar,Public,NSR,Tech,0001265888
+Tank Holdings,Private,,Industrials,
+Dollar Tree,Public,DLTR,Consumer/Retail,0000935703
+WaveDivision Holdings,Private,,CME,
+Consolidated Container,Private,,Transportation,
+Cetera Financial Group,Private,,FIG,
+Tandus,Private,,Industrials,
+Textainer Group Holdings Ltd,Public,TGH,Leasing,0001413159
+Health Care Properties,Public,HCP,Real Estate,0000765880
+Total Systems Services,Public,TSS,Tech,0000721683
+Wendy's,Public,WEN,Consumer/Retail,0000030697
+Axiall,Public,AXLL,Industrials,0000805264
+Garda World Security,Public,GW,Industrials,0000320186
+Par Pharmaceutical,Public,PRX,Healthcare,0001559149
+TRAC Intermodal,Private,,Transportation,
+Amsted Industries,Private,,Transportation,
+Landmark Aviation,Private,,Aerospace,
+Serta Simmons,Public,AOTBED,Consumer/Retail,
+Houghton International,Private,,Industrials,
+Fly Leasing,Public,FLY,Leasing,0001407298
+Cunningham Linsdey,Private,,FIG,
+Sequa Automotive Group,Private,,Industrials,
+FleetPride,Private,,Transportation,
+Confie Seguros,Private,,FIG,
+Insight Global,Private,,Tech,
+Nuveen Investments,Private,,FIG,
+KEYW Holding Corporation,Public,KEYW,Aerospace,0001487101
+CNO Financial Group,Public,CNO,FIG,0001224608
+Stanley Black and Decker,Public,SWK,Industrials,0000093556
+Apex Tool Group,Private,,Industrials,
+Ancestry.com,Public,ACOM,Tech,0001469433
+Archstone Smith,Public,ASN,Real Estate,0001555218
+AbbVie,Public,ABBV,Healthcare,0001551152
+Therakos,Private,,Healthcare,
+Metaldyne Performance Group,Public,MPG,Industrials,0001616817
+Aircastle Limited,Public,AYR,Leasing,0001362988
+Tronox,Public,TROX,Industrials,0001530804
+Facebook,Public,FB,Tech,0001326801
+Watco,Private,,Transportation,
+Ply-Gem,Public,PGEM,Industrials,0001284807
+Cequel Communications,Private,,CME,
+Rayonier,Public,RYN,Industrials,0000052827
+Alliant Holdings,Private,,FIG,
+USI Insurance,Private,,FIG,
+Zoetis,Public,ZTS,Healthcare,0001555280
+Consolidated Precision Products,Private,,Aerospace,
+Cleaver Brooks,Private,,Industrials,
+Intermedia,Private,,CME,
+Heartland Dental,Private,,Healthcare,
+LMI Aerospace,Public,LMIA,Aerospace,0001059562
+Renfro,Private,,Consumer/Retail,
+Arris Group Inc,Public,ARRS,CME,0001645494
+Accudyne,Private,,Industrials,
+Sarnova,Private,,Healthcare,
+Onex ATR,Private,,Leasing,
+AerCap Holdings NV,Public,AER,Leasing,0001378789
+Heinz,Public,HNZ,Consumer/Retail,0000046640
+API Heat Transfer,Private,,Industrials,
+Power Team Services,Private,,Industrials,
+Cooper Gay Swett,Private,,FIG,
+Livingston International,Private,,Transportation,
+Duff & Phelps,Private,,Tech,
+CSM Bakery,Private,,Consumer/Retail,
+Allflex,Private,,Industrials,
+Old Dominion Freight Line,Public,ODFL,Transportation,0000878927
+TransUnion,Public,TRUN,CME,0001513514
+CST Brands,Public,CST,Consumer/Retail,0001562039
+Computer Sciences Corp,Public,CSC,Tech,0000023082
+Fly Acquisition II Limited,Public,FLY,Leasing,0001407298
+CoreLogic,Public,CLGX,Tech,0000036047
+Synagro Technologies,Private,,Industrials,
+Boulder Brands,Public,BDBD,Consumer/Retail,0001331301
+Emerald Expositions,Private,,CME,
+General Dynamics,Public,GD,Aerospace,0000040533
+Gardner Denver,Private,,Industrials,
+Trident USA,Private,,Healthcare,
+Guggenheim Partners,Private,,FIG,
+United States Infrastructure Corporation,Private,,Industrials,
+National Financial Partners,Public,NFP,FIG,0001183186
+MedSolutions,Private,,Healthcare,
+Continental Building Products,Public,CBPX,Industrials,0001592480
+Sequa Corporation,Public,SQA,Aerospace,
+Mitchell International,Private,,Tech,
+Amgen,Public,AMGN,Healthcare,0000318154
+Verisk,Public,VRSK,Tech,0001442145
+Westway,Public,WWAY,Industrials,0001361872
+Global Sea Containers,Public,CRNS,Leasing,0000919869
+KraussMaffei,Private,,Industrials,
+Sensus Metering Systems,Private,,Industrials,
+Active Network,Public,ACTV,Tech,0001163932
+Eastman Chemical,Public,EMN,Industrials,0000915389
+Omnitracs,Private,,Tech,
+Norcraft,Public,NCFT,Industrials,0001582616
+International Business Machines,Public,IBM,Tech,0000051143
+Fanatics,Private,,Tech,
+OneCall Care Management,Private,,Healthcare,
+Campbell Soup,Public,CPB,Consumer/Retail,0000016732
+GlobalLogic,Private,,Tech,
+Brickman Group,Private,,Industrials,
+Utility Services Associates,Private,,Industrials,
+"Townsquare Media, LLC",Public,TSQ,CME,0001499832
+North American Lifting Holdings,Private,,Industrials,
+Western Digital Corp,Public,WDC,Tech,0000106040
+Seastar Solutions,Private,,Industrials,
+Evoqua Water Technologies,Private,,Industrials,
+Power Products LLC,Private,,Industrials,
+Broadcom,Public,BRCM,Tech,0001054374
+AmeriLife,Private,,FIG,
+Global Atlantic Financial Group,Private,,FIG,
+Bob's Discount Furniture,Private,,Consumer/Retail,
+IMG,Private,,CME,
+Atrium Innovations,Private,,Consumer/Retail,
+CareCore National Services,Private,,Healthcare,
+Aramark,Public,ARMK,Tech,0001584509
+On Assignment,Public,ASGN,CME,0000890564
+Ports America,Private,,Infrastructure,
+Microsemi,Public,MSCC,Tech,0000310568
+Ennis Flint,Private,,Industrials,
+Innovative Aftermarket Services,Private,,FIG,
+Vencore,Private,,Aerospace,
+Neiman Marcus,Public,NMG,Consumer/Retail,0001644147
+Anchor Glass Container,Private,,Industrials,
+AssuredPartners,Private,,FIG,
+Long Term Care Group,Public,IAS,FIG,0001073615
+CDW Corporation,Public,CDW,Tech,0001402057
+RidgeWorth Capital Management,Private,,FIG,
+Waypoint,Private,,Leasing,
+ServiceMaster,Public,SERV,Tech,0001428875
+Solenis,Private,,Industrials,
+Emerald Performance Materials,Private,,Industrials,
+Quorum Business Solutions,Private,,Tech,
+Bed Bath & Beyond,Public,BBBY,Consumer/Retail,0000886158
+Element Materials Technology,Private,,Tech,
+Restaurant Brands,Public,BKC,Consumer/Retail,0001352801
+Halyard Health,Public,HYH,Healthcare,0001606498
+Sealed Air Corporation,Public,SEE,Industrials,0001012100
+Jupiter Resources,Private,,Energy,
+York Risk Services,Private,,FIG,
+Jeld-Wen,Private,,Industrials,
+ProQuest,Private,,CME,
+Creganna-Tactx Medical,Private,,Healthcare,
+Q Holdings,Private,,Industrials,
+Distribution International,Private,,Industrials,
+First Advantage Corporation,Public,FADV,Tech,0001210677
+Presidio,Private,,Tech,
+Royalty Pharma,Private,,Healthcare,
+CRGT,Private,,Aerospace,
+Impax Laboratories,Public,IPXL,Healthcare,0001003642
+Exact Business Software,Private,,Tech,
+BroadStreet Partners,Private,,FIG,
+Dupont,Public,DD,Industrials,0000030554
+Anthem,Public,ANTM,Healthcare,0001156039
+Oasis Outsourcing,Private,,Tech,
+NXT Capital,Private,,FIG,
+Angus Chemical,Private,,Industrials,
+Indiana Toll Road,Private,,Infrastructure,
+Qualcomm,Public,QCOM,Tech,0000804328
+Forterra Building Products,Private,,Industrials,
+Boyd Corp,Public,BYD,Industrials,0000906553
+Informatica,Public,INFA,Tech,0001080099
+PepsiCo,Public,PEP,Consumer/Retail,0000077476
+United Health,Public,UNH,Healthcare,0000731766
+Cognizant Technology Solutions,Public,CTSH,Tech,0001058290
+Mirion Technologies,Public,MION,Industrials,0001465763
+Cirque du Soleil,Private,,CME,
+Harsco,Public,HSC,Industrials,0000045876
+Aspen Dental,Private,,Healthcare,
+American Beacon Advisors,Private,,FIG,
+Guitar Center,Public,GTRC,Consumer/Retail,0001021113
+CF Industries,Public,CF,Industrials,0001324404
+Patterson Companies,Public,PDCO,Healthcare,0000891024
+Chemours Company,Public,CC,Industrials,0001627223
+Landmark Infrastructure Partners,Public,LMRK,Real Estate,0001615346
+Estee Lauder,Public,EL,Consumer/Retail,0001001250
+Intel Corporation,Public,INTC,Tech,0000050863
+ViaSat,Public,VSAT,Aerospace,0000797721
+PDC Brands,Private,,Consumer/Retail,
+U.S. Shipping,Public,USSPQ,Transportation,0001299716
+CareCentrix,Private,,Healthcare,
+Petsmart,Private,,Consumer/Retail,
+Pet Supplies Plus,Private,,Consumer/Retail,
+Nellson Nutraceuticals,Private,,Consumer/Retail,
+Jo-Ann Stores,Private,,Consumer/Retail,
+5.11 Inc,Private,,Consumer/Retail,
+Murphy USA,Public,MUSA,Consumer/Retail,0001573516
+Summit Materials,Public,SUM,Industrials,0001621563
+Jack's Family Restaurants,Private,,Consumer/Retail,
+Nu Skin Enterprises Inc,Public,NUS,Consumer/Retail,0001021561
+United Rentals,Public,URI,Industrials,0001067701
+Drummond Company,Private,,Industrials,
+Infiltrator Systems,Private,,Industrials,
+John Bean Technologies,Public,JBT,Industrials,0001433660
+Novelis (Hindalco),Private,,Industrials,
+SunCoke Energy,Public,SXC,Industrials,0001514705
+Husky International,Private,,Industrials,
+Gypsum Management and Supply,Public,GMS,Industrials,
+Installed Building Products,Public,IBP,Industrials,0001580905
+Mannington Mills,Private,,Industrials,
+Avolon,Public,AVOL,Leasing,0001610128
+Progressive Solutions,Private,,Healthcare,
+Claire's Stores Inc,Private,,Consumer/Retail,
+Helen of Troy,Public,HELE,Consumer/Retail,0000916789
+Cast & Crew Entertainment,Private,,Tech,
+ProAmpac,Private,,Industrials,
+Agree Realty Corp,Public,ADC,Real Estate,0000917251
+AV Homes Inc,Public,AVHI,Real Estate,0000039677
+Brixmor Property Group,Public,BRX,Real Estate,0001581068
+Caretrust REIT,Public,CTRE,Real Estate,0001590717
+Chambers Street Properties,Public,CSG,Real Estate,0001297587
+DDR Corp,Public,DDR,Real Estate,0000894315
+Lennar,Public,LEN,Real Estate,0000920760
+MedEquities,Public,MDQZZ,Real Estate,0001616314
+MEPT Edgemoor LP,Private,,Real Estate,
+Meritage Homes,Public,MTH,Real Estate,0000833079
+Milestone,Public,MST-U CN,Real Estate,
+Omega Healthcare Investors,Public,OHI,Real Estate,0000888491
+Paramount Group,Public,PGRE,Real Estate,0001605607
+Phillips Edison Grocery Center,Public,PDRG,Real Estate,0001581405
+Physicians Realty Trust,Public,DOC,Real Estate,0001574540
+Realty Income,Public,O,Real Estate,0000726728
+Rouse Properties,Public,RSE,Real Estate,0001528558
+Select Income REIT,Public,SIR,Real Estate,0001537667
+Sun Communities,Public,SUI,Real Estate,0000912593
+WPT Industrial REIT,Public,WPTIF,Real Estate,
+Whitestone REIT,Public,WSR,Real Estate,0001175535
+Westfield,Public,WFD,Real Estate,0001157647
+Iron Mountain,Public,IRM,Real Estate,0001020569
+LaSalle Hotels,Public,LHO,Real Estate,0001053532
+National Storage Affiliates,Public,NSA,Real Estate,0001618563
+Omni,Private,,Real Estate,
+US Shipping Corp,Public,USSPQ,Transportation,0001299716
+Protection 1,Private,,Industrials,
+Aerostar,Private,,Infrastructure,
+Bayonne Water,Private,,Infrastructure,
+Macquarie Infrastructure,Private,,Infrastructure,
+Matson Inc,Public,MATX,Transportation,0000003453
+Peacock Engineering,Private,,Consumer/Retail,
+NetScout Systems,Public,NTCT,Tech,0001078075
+Hostess Brands LLC,Private,,Consumer/Retail,
+A10 Networks Inc,Public,ATEN,Tech,0001580808
+Jackson Hewitt Tax Service,Private,,Tech,
+Dropbox,Private,,Tech,
+Heartland Payment Systems,Public,HPY,Tech,0001144354
+US LBM,Private,,Industrials,
+Osmose Utilities Services,Private,,Industrials,
+Hoyt's Group Holding LLC,Private,,CME,
+TI Automotive,Private,,Auto,
+Lannett Co Inc,Public,LCI,Healthcare,0000057725
+Foundation Building Materials,Private,,Industrials,
+Hewlett Packard Enterprise,Public,HPE,Tech,0001645590
+Time Warner Cable Inc,Public,TWC,CME,0001377013
+Allscripts Healthcare Solutions,Public,MDRX,Healthcare,0001124804
+Skyway Concession Company LLC,Private,,Infrastructure,
+AT&T Inc.,Public,T,CME,0000732717
+Southern Star Central Gas Pipeline,Private,,Energy,
+"A10 Capital, LLC",Private,,Real Estate,
+Daimler Canada Finance Inc.,Public,DAI,Auto,0001067318
+National Rural Utilities CFC,Private,,Power/Utility,
+Old Line Funding (Verizon),Private,,Securitization,
+IBM Corporation,Public,IBM,Tech,0000051143
+American Honda Finance Corporation,Public,HMC,Auto,0000715153
+Ford Motor Credit Company LLC,Public,F,Auto,0000037996
+Allete Inc,Public,ALE,Power/Utility,0000066756
+Ally Investment Management LLC,Public,ALLY,Auto,0000040729
+American Express Credit Corp,Public,AXP,FIG,0000004962
+Caterpillar Financial Services Corp,Public,CAT,Industrials,0000018230
+CBS Corporation,Public,CBS,CME,0000813828
+Toyota Motor Credit Corporation,Public,TM,Auto,0001094517
+General Electric Financial Markets,Public,GE,Industrials,0000040545
+Synchrony Financial,Public,SYF,FIG,0001601712
+T-Mobile Handset Funding LLC,Public,TMUS,Securitization,0001283699
+Activision Blizzard,Public,ATVI,CME,0000718877
+Ameren Corp,Public,AEE,Power/Utility,0001002910
+American Electric Power Co,Public,AEP,Power/Utility,0000004904
+American Water Works,Public,AWK,Power/Utility,0001410636
+Aria Energy,Private,,Energy,
+Atlantic Power Corp,Public,AT,Energy,0001419242
+Berkshire / Midamerican,Public,BRKHEC,Energy,
+Black Hills Corp,Public,BKH,Energy,0001130464
+Calpine,Public,CPN,Energy,0000916457
+Centerpoint Energy,Public,CNP,Power/Utility,0001130310
+Chesapeake Utilities,Public,CPK,Energy,0000019745
+Cms Energy,Public,CMS,Energy,0000811156
+Dominion Resources,Public,D,Power/Utility,0000715957
+Dpl,Public,AES,Energy,0000874761
+Duke Energy,Public,DUK,Power/Utility,0001326160
+"Dynegy, Inc",Public,DYN,Energy,0001379895
+Edison International,Public,EIX,Energy,0000827052
+Electric Infrastructure A Of A,Private,,Energy,
+Empire District Electric Co,Public,EDE,Energy,0000032689
+Energy Future Holdings,Private,,Energy,
+Enviva Lp,Public,EVA,Energy,0001592057
+Essential Power,Private,,Energy,
+Exelon,Public,EXC,Power/Utility,0001109357
+Firstenergy,Public,FE,Energy,0001031296
+"Green Country Energy, Llc",Private,,Energy,
+Hawaiian Electric Industries,Public,HE,Energy,0000354707
+Idacorp Inc,Public,IDA,Energy,0001057877
+Intergen,Private,,Energy,
+Invenergy,Private,,Energy,
+Laclede Group,Public,LG,Energy,0001126956
+Ldc Holdings,Private,,Power/Utility,
+Ls Power Associated Lp,Private,,Energy,
+"Mayflower Energy Holdings, LLC",Private,,Power/Utility,
+Mcv,Private,,Energy,
+Mdu Resources,Public,MDU,Energy,0000067716
+"Nextera Energy, Inc",Public,NEE,Power/Utility,0000753308
+Nisource,Public,NI,Power/Utility,0001111711
+Northeast Utilities,Public,ES,Energy,0000072741
+Northwest Natural Gas,Public,NWN,Energy,0000073020
+Northwestern Corp,Public,NEW,Energy,0001287286
+"Nrg Energy, Inc",Public,NRG,Energy,0001013871
+Oge Energy Corp,Public,OGE,Energy,0001021635
+"One Gas, Inc.",Public,OGS,Energy,0001587732
+Pattern,Public,PEGI,Energy,0001561660
+PG&E Corp,Public,PCG,Energy,0001004980
+Piedmont Natural Gas,Public,PNY,Energy,0000078460
+Pnm Resources,Public,PNM,Energy,0001108426
+Ppl Corp,Public,PPL,Energy,0000922224
+Public Service Enterprise Group,Public,PEGI,Energy,0001561660
+Puget Energy,Private,,Energy,
+Sempra Energy,Public,SRE,Energy,0001032208
+Shannon Wind,Private,,Energy,
+Solarcity,Public,SCTY,Energy,0001408356
+Southwest Water,Public,SWWC,Energy,0000092472
+Star West Generation Llc,Private,,Energy,
+Sunedison,Public,SUNE,Energy,0000945436
+"Sunrun, Inc",Public,RUN,Energy,0001469367
+Talen Energy,Public,TLN,Energy,0001622536
+Teco Energy Inc,Public,TE,Energy,0000350563
+Tenaska,Private,,Energy,
+Upper Pennisula Power,Private,,Energy,
+Wgl Holdings,Public,WGL,Power/Utility,0001103601
+Wisconsin Energy,Public,WEC,Energy,0000783325
+Xcel Energy,Public,XEL,Energy,0000072903
+6922767 Holding S.A.R.L.,Public,HELI,Energy,0001586300
+Afglobal Corporation,Private,,Energy,
+Alliance Resource Partners Lp,Public,ARLP,Energy,0001086600
+American Midstream Partners,Public,AMID,Energy,0001513965
+Western Gas Partners Lp,Public,WES,Energy,0001414475
+Apache Corporation,Public,APA,Energy,0000006769
+Approach Resources Inc.,Public,AREX,Energy,0001405073
+Conocophillips,Public,COP,Energy,0001163165
+Contango Oil & Gas Company,Public,MCF,Energy,0001071993
+Corenergy Infrastructure Trust,Public,CORR,Energy,0001347652
+Coronado Midstream,Private,,Energy,
+Crestwood Equity Partners Lp,Public,CEQP,Energy,0001136352
+"Dcp Midstream, Llc",Public,DPM,Energy,0001338065
+Delek Us Holdings Inc.,Public,DK,Energy,0001351541
+"Denbury Resources, Inc.",Public,DNR,Energy,0000945764
+Devon Energy Corporation,Public,DVN,Energy,0001090012
+Eagle Rock Energy Partners,Private,,Energy,
+Emerge Energy Services Oper,Public,EMES,Energy,0001555177
+Enduro Resource Partners Llc,Private,,Energy,
+Energen Corp,Public,EGN,Energy,0000277595
+"Energy Transfer Equity, L.P.",Public,ETE,Energy,0001276187
+"Enervest, Ltd.",Private,,Energy,
+Enterprise Products Partners,Public,EPD,Energy,0001061219
+Eog Resources Inc,Public,EOG,Energy,0000821189
+Ep Energy Llc,Public,EPE,Energy,0001584952
+Eqt Corporation,Public,EQT,Energy,0000033213
+Exterran Holdings Inc,Public,EXH,Energy,0001389050
+Extraction Oil & Gas Holdings,Public,EXTOIL,Energy,
+Exxon Mobil Corporation,Public,XOM,Energy,0000034088
+Fairmount Santrol Inc,Public,FMSA,Energy,0001010858
+Fayetteville Express Pipeline,Private,,Energy,
+"Fleur De Lis Energy, Llc",Private,,Energy,
+Freeport LNG,Private,,Energy,
+Forest Oil Corporation,Public,SOGCQ,Energy,0000038079
+Formation Energy L.P.,Private,,Energy,
+"Fuse Energy, Llc",Private,,Energy,
+"Genesis Energy, L.P.",Public,GEL,Energy,0001022321
+"Globe Energy Services, Llc",Private,,Energy,
+Golar Lng Partners Lp,Public,GLNG,Energy,0001207179
+Goodrich Petroleum Corporation,Public,GDP,Energy,0000943861
+"Great Western Petroleum, Llc",Private,,Energy,
+Halcon Resources Corporation,Public,HK,Energy,0001282648
+"Howard Midstream Energy, Llc",Private,,Energy,
+Hunt Consolidated Inc,Private,,Energy,
+Jp Energy Partners Lp,Public,JPEP,Energy,0001523404
+Key Energy Services Inc.,Public,KEG,Energy,0000318996
+"Kinder Morgan, Inc.",Public,KMI,Energy,0001506307
+Kodiak Oil & Gas Corp.,Public,KDKN,Energy,0001109553
+Legacy Reserves Lp,Public,LGCY,Energy,0001358831
+Linn Energy Llc,Public,LINE,Energy,0001326428
+Loews Corporation,Public,L,Energy,0000060086
+"Lrr Energy, L.P.",Private,,Energy,
+Ltr Hold Co,Private,,Energy,
+Magellan Midstream Partners Lp,Public,MMP,Energy,0001126975
+Magnum Hunter Resources Corp.,Public,MHR,Energy,0001335190
+Marathon Oil Corp,Public,MRO,Energy,0000101778
+"Markwest Energy Partners, Lp",Public,MWE,Energy,0001166036
+Martin Midstream Partners L.P.,Public,MMLP,Energy,0001176334
+Matador Resources Company,Public,MTDR,Energy,0001520006
+"Maxum Enterprises, Llc",Private,,Energy,
+Memorial Resource Development,Public,MRD,Energy,0001599222
+Merit Energy Company Llc,Private,,Energy,
+Meritage Midstream Services Ii,Private,,Energy,
+"Mid-Con Energy Partners, Lp",Public,MCEP,Energy,0001527709
+Midstates Petroleum Comp Inc.,Public,MPO,Energy,0001533924
+Morningstar Partners Lp,Private,,Energy,
+Murphy Oil Corporation,Public,MUR,Energy,0000717423
+Natural Resource Partners L.P.,Public,NRP,Energy,0001171486
+Net Mexico Pipeline Partners,Private,,Energy,
+"Newark E&P Holdings, Llc",Private,,Energy,
+Newfield Exploration Company,Public,NFX,Energy,0000912750
+Ngl Energy Partners,Public,NGL,Energy,0001504461
+"Noble Energy, Inc.",Public,NBL,Energy,0000072207
+"Northern Oil & Gas, Inc.",Public,NOG,Energy,0001104485
+Nustar Energy L.P.,Public,NS,Energy,0001110805
+Oasis Petroleum North America,Public,OAS,Energy,0001486159
+Oil States International Inc.,Public,OIS,Energy,0001121484
+Oneok Partners Lp,Public,OKS,Energy,0000909281
+"Parsley Energy, L.P.",Public,PE,Energy,0001594466
+Pbf Energy Inc.,Public,PBF,Energy,0001534504
+Penn Virginia Corporation,Public,PVA,Energy,0000077159
+Penntex Midstream Partners,Public,PTXP,Energy,0001617798
+Phillips 66,Public,PSX,Energy,0001534701
+Pioneer Energy Services Corp,Public,PES,Energy,0000320575
+Pioneer Natural Resources Co,Public,PNR,Energy,0000077360
+Plains All American Pipeline,Public,PAA,Energy,0001070423
+"Qa Holdings, Lp",Private,,Energy,
+Range Resources Corporation,Public,RRC,Energy,0000315852
+"Reliance Exploration, Ltd",Private,,Energy,
+"Republic Midstream, Llc",Private,,Energy,
+Rex Energy Corporation,Public,REXX,Energy,0001397516
+Rice Energy Inc,Public,RICE,Energy,0001588238
+Rki Exploration & Production,Private,,Energy,
+Rosetta Resources Inc,Private,,Energy,
+Rowan Companies Plc,Public,RDC,Energy,0000085408
+"Rsp Permian, L.L.C.",Public,RSPP,Energy,0001588216
+Sabine Oil & Gas Corp,Public,SOGCQ,Energy,0000038079
+Samson Investment Company,Private,,Energy,
+Sanchez Energy Corporation,Public,SN,Energy,0001528837
+"Sandridge Energy, Inc.",Public,SD,Energy,0001349436
+Schlumberger Ltd.,Public,SLB,Energy,0000087347
+Seadrill Limited,Public,SDRL,Energy,0001351413
+"Select Energy Services, Llc",Private,,Energy,
+Semgroup Corp,Public,SEMG,Energy,0001489136
+Sheridan Production Partners,Private,,Energy,
+Sm Energy Company,Public,SM,Energy,0000893538
+Southcross Energy Partners,Public,SXE,Energy,0001547638
+Southwestern Energy Company,Public,SWN,Energy,0000007332
+Spectra Energy,Public,SE,Energy,0001373835
+Stonegate Production Company,Private,,Energy,
+"Summit Midstream Partners, Llc",Public,SMLP,Energy,0001549922
+"Superior Energy Services, Inc.",Public,SPN,Energy,0000886835
+Swift Energy Company,Public,SFYWQ,Energy,
+Tallgrass Development Lp,Public,TEP,Energy,0001569134
+"Tapstone Energy, Llc",Private,,Energy,
+Targa Resources Corp,Public,TRGP,Energy,0001389170
+Tesoro Corporation,Public,TSO,Energy,0000050104
+"Tetra Technologies, Inc.",Public,TTI,Energy,0000844965
+"The Williams Companies, Inc",Public,WMB,Energy,0000107263
+Ultra Petroleum Corp.,Public,UPL,Energy,0001022646
+"Usa Compression Partners, Lp",Public,USAC,Energy,0001522727
+Usd Partners Lp,Public,USDP,Energy,0001610682
+Valero Energy Corporation,Public,VLO,Energy,0000021271
+"Vanguard Natural Resources, Ll",Public,VNR,Energy,0001384072
+Vantage Drilling Company,Public,VTGDF,Energy,0001419428
+"Vantage Energy, Llc",Private,,Energy,
+Weatherford International Ltd,Public,WFT,Energy,0001603923
+Whiting Petroleum Corporation,Public,WLL,Energy,0001255474
+"Wishbone Energy Partners, Llc",Private,,Energy,
+"WPX Energy, Inc.",Public,WPX,Energy,0001518832
+Kraft Heinz,Public,KHC,Consumer/Retail,0001637459
+PACCAR Financial Ltd.,Public,PCAR,Industrials,0000075362
+"John Deere Financial Services, Inc.",Public,DE,Industrials,0000315189
+"Carmax Auto Superstores, Inc.",Public,KMX,Leasing,0001170010
+Vault Funding Limited,Public,GM,Securitization,0001467858
+Chesapeake Funding LLC,Public,EFN CN,Securitization,
+Avis Budget Rental Car Funding (AESOP) LLC,Private,,Securitization,
+Americredit Financial Services Inc.,Public,GM,Auto,0001467858
+WestRock,Public,WRK,Industrials,0001636023
+Ford Credit Canada Limited,Public,F,Auto,0000037996
+Globaldrive (UK) Variable Funding II plc,Public,F,Securitization,0000037996
+VW Credit Canada Funding LP Series 2015-1,Private,,Securitization,
+SCANA Corp,Public,SCG,Power/Utility,0000754737
+HK Lease Funding LP,Public,HYNMTR,Securitization,
+SteelRiver Transmission Co LLC,Private,,Power/Utility,
+CSRA,Public,CSRA,Aerospace,0001646383
+Nobel Learning Communities,Public,NLCI,FIG,0000721237
+"BMW US Capital, LLC",Public,BMW,Auto,
+Navient Private Education Loan Trust 2016-A,Private,,Consumer/Retail,
+"First Tennessee Bank, N.A.",Public,FHN,FIG,0000036966
+Walt Disney Company,Public,DIS,CME,0001001039
+IHS Markit Ltd,Public,INFO,CME,0001598014
+Navient Corporation,Public,NAVI,FIG,0001593538
+National Australia Bank Limited,Public,NAB AU,FIG,0000833029
+Cox Enterprises,Private,,CME,
+Santander Consumer USA Inc.,Public,SC,Auto,0001580608
+Lowe's,Public,LOW,Consumer/Retail,0000060667
+F-CARAT 2010-01,Public,GM,Securitization,0001467858
+"TierPoint, LLC",Private,,CME,
+Crown Castle International Corp,Public,CCI,CME,0001051470
+Care Capital Properties,Public,CCP,Real Estate,0001639947
+GMF Prime Automobile Warehouse Trust IV,Private,,Securitization,
+American Tower Corporation,Public,AMT,CME,0001053507
+"Centurylink, Inc.",Public,CTL,CME,0000018926
+Comcast Corp,Public,CMCSA,CME,0001166691
+Communications Sales And Leasing,Public,CSAL,CME,0001620280
+Discovery Communications Inc.,Public,DISCA,CME,0001437107
+"Equinix, Inc.",Public,EQIX,CME,0001101239
+Lumos,Public,LMOS,CME,0001520744
+Midcontinent Communications,Public,MIDCON,CME,
+Nielsen Holdings N.V.,Public,NLSN,CME,0001492633
+Sprint Corporation,Public,S,CME,0000101830
+Telephone & Data Systems Inc.,Public,TDS,Securitization,0001051512
+"Windstream Holdings, Inc.",Public,WIN,CME,0001282266
+Zayo Group Holdings Inc.,Public,ZAYO,CME,0001608249
+Charter Communications,Public,CHTR,CME,0001091667
+"Media General, Inc.",Public,MEG,CME,0000216539
+Mediacom Communications Corp,Public,MCCC,CME,0001098659
+Viacom Inc.,Public,VIA,CME,0001339947
+GMF Canada Automobile Receivables Trust,Private,,Securitization,
+Chesapeake Funding II LLC,Private,,Securitization,
+Starwood Capital,Private,,Real Estate,
+SCARF 2016-L2 LLC,Private,,Securitization,
+QVC Inc.,Public,QVCA,CME,0001355096
+Omnicom,Public,OMC,CME,0000029989
+Arris International plc,Public,ARRS,CME,0001645494
+Vivid Seats,Private,,Tech,
+TreeHouse Foods,Public,THS,Consumer/Retail,0001320695
+FAST 2016-R1,Private,,Securitization,
+E-CARAT 6 plc,Private,,Securitization,
+Ally AFRBC Issuer III LLC,Private,,Securitization,
+"Volkswagen Operating Lease Transaction, LLC",Public,VW,Securitization,
+FCE Bank plc,Public,F,Auto,0000037996
+Petco,Private,,Consumer/Retail,
+Galatyn Parent LP,Private,,Real Estate,
+Imagine!,Private,,CME,
+Gray TV,Public,GTN,,0000043196
+"VW Credit Canada, Inc.",Public,VOW GY,Auto,0000839772
+Cision,Private,,CME,
+Shentel Cable,Public,SHEN,CME,0000354963
+Crown Media Holdings,Public,CRWN,CME,0001103837
+Quorum Health Corp,Public,QHC,Healthcare,0001650445
+ACP Datacenter Holdings Inc.,Private,,CME,
+Cable & Wireless Comm PLC,Private,,CME,
+"Cable One, Inc.",Public,CABO,CME,0001632127
+Cablevision Systems Corp,Public,CVC,CME,0001053112
+Give & Go,Private,,Consumer/Retail,
+NAPA (North American Partners in Anesthesia),Private,,Healthcare,
+"Carmike Cinemas, Inc",Public,CKEC,CME,0000799088
+Hertz Global Holdings,Public,HTZ,Leasing,0001657853
+Cologix,Private,,CME,
+DHX Media Ltd,Public,DHX / DHXCN,CME,
+Cable Bahamas Limited,Public,CAB BM,,
+Frontier Communications Inc,Public,FTR,CME,0000020520
+"Legend Pictures, LLC",Private,,CME,
+Sherwin-Williams,Public,SHW,Industrials,0000089800
+Albertsons Companies,Private,,Consumer/Retail,
+Arizona Beverages,Private,,Consumer/Retail,
+Belk,Private,,Consumer/Retail,
+Fresh Market,Private,,Consumer/Retail,
+Old Line Funding (AT&T),Private,,Securitization,
+Verizon Communications,Public,VZ,CME,0000732712
+Hyundai Capital America,Private,,Auto,
+"VW Credit, Inc.",Public,VW,Auto,
+"Ryder System, Inc.",Public,R,Leasing,0000085961
+Starz,Public,STARZ,CME,
+Lions Gate Entertainment Corp,Public,LGF,CME,0001337587
+"Media Rights Capital II, L.P.",Private,,CME,
+"MGM Holdings II, Inc",Public,MGM,CME,0000789570
+Monarchy Enterprises Holdings,Private,,CME,
+"National Cinemedia, Inc",Public,NCMI,CME,0001377630
+Nexstar Broadcasting Group,Public,NXST,CME,0001142417
+"Raycom TV Broadcasting, LLC",Private,,CME,
+"Sinclair Broadcast Group, Inc",Public,SBGI,CME,0000912752
+Tegna Inc,Public,TGNA,CME,0000039899
+The E.W. Scripps Company,Public,SSP,CME,0000832428
+WME IMG Holdings LLC,Private,,CME,
+WTAT,Private,,CME,
+Nuance Communications Inc,Public,NUAN,Tech,0001002517
+U.S. Cellular,Private,,Securitization,
+Ally Financial Inc.,Public,ALLY,Auto,0000040729
+Ally AFRBC Issuer II LLC,Private,,Securitization,
+"Enterprise Fleet Management, Inc.",Private,,Securitization,
+Enterprise Fleet Financing LLC,Private,EHI,Securitization,
+Enterprise Holdings Inc.,Private,EHI,Securitization,
+McGraw-Hill Education,Private,,CME,
+General Motors,Public,GM,Auto,0001467858
+Ally AFRBC Issuer LLC,Private,,Securitization,
+Edgewater Village,Private,,Real Estate,
+Synopsys,Public,SNPS,Tech,0000883241
+"Avis Budget Car Rental, LLC",Public,CAR,Leasing,0000723612
+Canadian Imperial Bank,Public,CM,FIG,0001045520
+Nextera Energy Capital Holdings,Public,NEE,Power/Utility,0000753308
+GMF Leasing Warehouse Trust 2016-A,Public,GMALT 2016-A,Securitization,
+APLP Holdings LP,Public,AT,Power/Utility,0001419242
+Atlantic Power LP,Public,AT,Power/Utility,0001419242
+American Water Capital Corp,Public,AWK,Power/Utility,0001410636
+AFTER (Retail),Public,AFTER,Securitization,
+SMBC Aviation,Private,,Leasing,
+South Carolina Electric & Gas,Private,,Power/Utility,
+"Brush Power, LLC",Private,,Energy,
+"Energy Transfer Partners, LP",Public,ETP,Energy,0001012569
+Sunoco Logistics Partners,Public,SXL,Energy,0001161154
+"Centerpoint Energy Houston Electric, LLC",Public,CNP,Power/Utility,0001130310
+EnLink Midstream Partners,Public,ENLK,Energy,0001179060
+AFTER (Lease),Private,,Securitization,
+Uber,Private,,Tech,
+Diamond Resorts International,Public,DRII,Real Estate,0001566897
+Symantec,Public,SYMC,Tech,0000849399
+Surgery Partners,Public,SGRY,Healthcare,0001638833
+Australia & New Zealand Bank,Public,ANZ AU,FIG,0000859994
+Toyota Credit Canada Inc.,Public,TM,Auto,0001094517
+Globaldrive Auto Receivables UK 2016-A,Private,,Securitization,
+Ford Credit CP Auto Receivables,Private,,Securitization,
+Beasley Broadcast Group,Public,BBGI,CME,0001099160
+DirectTV,Private,,CME,
+Beaver-Visitec,Private,,Healthcare,
+Polyconcept,Private,,Consumer/Retail,
+Charlesbank,Private,,,
+Ford Lease Trust 2015-L1,Private,,Securitization,
+Navient Private Education Loan Trust 2015-A,Private,,Securitization,
+Navient Private Education Loan Trust 2014-A,Private,,Securitization,
+E-CARAT 5 plc,Private,,Securitization,
+FAST 2015-R1,Private,,Securitization,
+FCALT 2014-WH3,Private,,Securitization,

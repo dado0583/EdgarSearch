@@ -3,7 +3,7 @@ Created on Sep 18, 2016
 
 @author: dave
 '''
-from Coverage import Coverage
+from SECCoverage import SECCoverage
 
 
 class Users(object):
@@ -19,8 +19,8 @@ class Users(object):
         return users
     
     @staticmethod
-    def getCoverage(user):
-        return Coverage().getCoverage(user)
+    def getSearchTerms(user):
+        return SECCoverage().getSearchTerms(user)
         
         
 class User(object):
