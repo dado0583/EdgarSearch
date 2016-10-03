@@ -37,7 +37,7 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:             
+        with concurrent.futures.ThreadPoolExecutor(max_workers=30) as pool:             
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
                 #self.searchFiling(cik)
@@ -103,10 +103,10 @@ class FilingFinder(object):
                         rowData["companyName"] = companyName    
                         rowData["_timestamp"] = datetime.datetime.now()
 
-                        if filingsCollection.find({'_id': rowData["_id"]}).count() > 0:
+                        if filingsCollection.find({'_id': rowData["_id"]},{"_id":1}).count() > 0:
                             continue
 
-                        print('Found Filing {}, file number {}'.format(rowData["Filings"], rowData["_id"]))                                                                        
+                        print('Found Filing {}, file number {} for {}/{}'.format(rowData["Filings"], rowData["_id"], companyName, cik))                                                                        
                         self.addInfo(rowData) 
                     
                         try:

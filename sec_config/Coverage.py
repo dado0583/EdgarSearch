@@ -1,3 +1,5 @@
+from random import shuffle
+
 '''
 Created on Sep 18, 2016
 
@@ -593,6 +595,8 @@ class SECCoverage(object):
         ciks_codes.append(1657197)
         ciks_codes.append(1657853)
         ciks_codes.append(1669779)
+        
+        shuffle(ciks_codes)
         
         return ciks_codes
     
