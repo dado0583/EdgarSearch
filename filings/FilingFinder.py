@@ -20,8 +20,8 @@ import zlib
 
 from ciks.CIKS import CIKS
 from config.MongoDb import MongoDb
-from htmlCache import Utils
-from htmlCache.Utils import getsoup
+from config.Utils import getsoup
+from config.Utils import getRaw
 from sec_config.Coverage import SECCoverage
 
 
@@ -67,7 +67,7 @@ class FilingFinder(object):
         filingsCollection = MongoDb().getDb('sec')['filings']
                 
         for page in range(1, 1000):
-            soup = Utils.getsoup(FilingFinder.baseUrl.format(cik, count*page, count))
+            soup = getsoup(FilingFinder.baseUrl.format(cik, count*page, count))
             table = soup.find('table', {"class":"tableFile2"})
             headers = []         
             
@@ -124,9 +124,9 @@ class FilingFinder(object):
                  
     def addInfo(self, rowData):        
         if 'DocumentsLink' in rowData and rowData['DocumentsLink'] is not None:
-            soup = Utils.getsoup(rowData['DocumentsLink'])
+            soup = getsoup(rowData['DocumentsLink'])
             urlForRawText = FilingFinder.domain + soup.find('a', text=re.compile("(.*)txt"))['href']
-            rawText = Utils.getRaw(urlForRawText)
+            rawText = getRaw(urlForRawText)
                         
             compressedText = zlib.compress(rawText.encode(), 6)
             rowData['RawText'] = Binary(compressedText)
@@ -135,7 +135,7 @@ class FilingFinder(object):
             self.addInteractiveDataInfo(rowData)
 
     def addInteractiveDataInfo(self, rowData):
-        soup = Utils.getsoup(rowData['InteractiveData'])
+        soup = getsoup(rowData['InteractiveData'])
         
         #Note, that the reports can be .htm or .xml. Newer reports seem to be .htm so focusing on that first.
         scriptWithReportsLinks = soup.find('script', text=re.compile(".*InstanceReportXslt.*"))
@@ -154,7 +154,7 @@ class FilingFinder(object):
         
         reportsData= []
         for url in urls:
-            soup = Utils.getsoup(url)
+            soup = getsoup(url)
             reportsData.append({"url":url, "html": soup.html.encode("utf-8")})
                         
         rowData['InteractiveDataTables'] = reportsData 

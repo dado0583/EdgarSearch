@@ -1,8 +1,13 @@
 from bs4 import BeautifulSoup
-from htmlCache import UrlOpen
+from config import UrlOpen
+
+
+def getRaw(url):
+    html = UrlOpen.UrlOpen().getHTML(url)
+    return html
 
 def getsoup(url):
-    html = UrlOpen.UrlOpen().getHTML(url)
+    html = getRaw(url)
     
     if html is None:
         print("No html found for " + url)
