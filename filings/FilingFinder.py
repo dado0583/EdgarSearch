@@ -128,7 +128,7 @@ class FilingFinder(object):
             urlForRawText = FilingFinder.domain + soup.find('a', text=re.compile("(.*)txt"))['href']
             rawText = getRaw(urlForRawText)
                         
-            compressedText = zlib.compress(rawText.encode(), 6)
+            compressedText = zlib.compress(str(rawText).encode(), 6)
             rowData['RawText'] = Binary(compressedText)
                 
         if 'InteractiveData' in rowData and rowData['InteractiveData'] is not None:
