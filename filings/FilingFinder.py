@@ -3,8 +3,6 @@ Created on Sep 18, 2016
 
 @author: dave
 '''
-from bs4 import BeautifulSoup
-from bs4.element import NavigableString
 from bson.binary import Binary
 import concurrent.futures
 import csv
@@ -18,10 +16,13 @@ from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 import zlib
 
+from bs4 import BeautifulSoup
+from bs4.element import NavigableString
+
 from ciks.CIKS import CIKS
 from config.MongoDb import MongoDb
-from config.Utils import getsoup
 from config.Utils import getRaw
+from config.Utils import getsoup
 from sec_config.Coverage import SECCoverage
 
 
@@ -110,11 +111,10 @@ class FilingFinder(object):
                         self.addInfo(rowData) 
                     
                         try:
-                            print('Saving file for {}'.format(rowData["_id"]))
+                            print('{} Saving file for {}'.format(str(datetime.datetime.now()), rowData["_id"]))
                             filingsCollection.save(rowData)
                         except:
                             print('Cutting down file for {}'.format(rowData["_id"]))
-                            self.removeBinaries(rowData)
                             filingsCollection.save(rowData)
                             
                 except Exception as e:
