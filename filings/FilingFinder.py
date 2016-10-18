@@ -3,6 +3,17 @@ Created on Sep 18, 2016
 
 @author: dave
 '''
+
+
+import sys
+import os
+           
+try:
+    sys.path.index(os.path.dirname(os.path.abspath(os.getcwd()))) # Or os.getcwd() for this directory
+except ValueError:
+    sys.path.append(os.path.dirname(os.path.abspath(os.getcwd()))) # Or os.getcwd() for this directory
+     
+
 from bson.binary import Binary
 import concurrent.futures
 import csv
@@ -25,7 +36,6 @@ from config.Utils import getRaw
 from config.Utils import getsoup
 from sec_config.Coverage import SECCoverage
 
-
 #from sec_coverage.Coverage import SECCoverage
 class FilingFinder(object):
     domain = 'https://www.sec.gov'
@@ -38,7 +48,7 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=30) as pool:             
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:             
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
                 #self.searchFiling(cik)
@@ -166,7 +176,7 @@ class FilingFinder(object):
             return True
         else:
             return False
-            
+        
 cik_codes = SECCoverage().getSearchTerms()
 FilingFinder(ciks=cik_codes).searchFilings()
             
