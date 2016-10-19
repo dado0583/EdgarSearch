@@ -6,9 +6,7 @@ Created on Sep 18, 2016
 import concurrent.futures
 import zlib
 
-from config.MongoDb import MongoDb
-from sec_config import SearchTerms
-import sec_config
+
 from sec_config.Coverage import SECCoverage
 
 
@@ -61,7 +59,7 @@ class FilingSearcher(object):
                     
         return matches
             
-cik_codes = sec_config.Coverage.SECCoverage().getSearchTerms()
-searchingTerms = sec_config.SearchTerms.SearchTerms().getSearchTerms()
+cik_codes = SECCoverage().getSearchTerms()
+searchingTerms = SearchTerms().getSearchTerms()
 FilingSearcher(ciks=cik_codes, searchTerms=searchingTerms).searchFilings()
             

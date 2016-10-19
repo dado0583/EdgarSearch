@@ -9,9 +9,9 @@ import sys
 import os
            
 try:
-    sys.path.index(os.path.dirname(os.path.abspath(os.getcwd()))) # Or os.getcwd() for this directory
+    sys.path.index(os.getcwd()) # Or os.getcwd() for this directory
 except ValueError:
-    sys.path.append(os.path.dirname(os.path.abspath(os.getcwd()))) # Or os.getcwd() for this directory
+    sys.path.append(os.getcwd()) # Or os.getcwd() for this directory
      
 
 from bson.binary import Binary
@@ -48,7 +48,7 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:             
+        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:             
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
                 #self.searchFiling(cik)
