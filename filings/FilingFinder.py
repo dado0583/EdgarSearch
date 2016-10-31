@@ -7,7 +7,7 @@ Created on Sep 18, 2016
 
 import sys
 import os
-           
+
 try:
     sys.path.index(os.getcwd()) # Or os.getcwd() for this directory
 except ValueError:
