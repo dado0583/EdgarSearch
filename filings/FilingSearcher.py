@@ -8,6 +8,7 @@ import sys
 import zlib
 import random
 import datetime
+import re
 
 try:
     sys.path.index(os.getcwd()) # Or os.getcwd() for this directory
@@ -30,11 +31,18 @@ class FilingSearcher(object):
 
         #pool.submit(outputRaceResults, url)  
             
-    def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:  
+    def searchFilings(self): 
+                  
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:  
+            pool.submit(self.searchFiling, self.searchTerms, 912750)
+             
+            if True:
+                return 
+        
             random.shuffle(self.ciks)           
             for cik in self.ciks:
-                pool.submit(self.searchFiling, self.searchTerms, cik)  
+                pool.submit(self.searchFiling, self.searchTerms, cik) 
+                
                 #self.searchFiling(cik)
                         
     def searchFiling(self, searchTerms, cik):
@@ -64,8 +72,23 @@ class FilingSearcher(object):
   
     def findMatches(self, item, searchTerms):
         matches = {}
+                
+        #lines = item.split('\\\\n')
+        
+        #prevLine = lines[0]
+        #currentLine = lines[1]
+        #nextLine = lines[2]
+        
+        #for lineNum in range(2, len(lines)):
+        #    print(prevLine + currentLine + nextLine)
+                
         for bucket in searchTerms:
             for string in searchTerms[bucket]:
+                #match = re.search(pattern, item)
+                
+                #pattern = "((.*\n){2})(.*)"+ string + "(.*)((.*\n){2})"
+                #print('Found "{}" in "{}" from {} to {} ("{}")'.format(match.re.pattern, match.string, s, e, item[s:e]))
+                
                 if string in item:
                     if bucket not in matches or len(matches[bucket]) == 0:
                         matches[bucket] = []
