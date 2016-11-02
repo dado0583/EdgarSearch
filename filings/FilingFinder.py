@@ -48,10 +48,9 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:             
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:    
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
-                #self.searchFiling(cik)
                         
     def getContents(self, rowData, header, cell):
         if "File/Film Number" in header:
@@ -137,8 +136,8 @@ class FilingFinder(object):
             soup = getsoup(rowData['DocumentsLink'])
             urlForRawText = FilingFinder.domain + soup.find('a', text=re.compile("(.*)txt"))['href']
             rawText = getRaw(urlForRawText)
-                        
-            compressedText = zlib.compress(str(rawText).encode(), 6)
+                
+            compressedText = zlib.compress(rawText, 6)
             rowData['RawText'] = Binary(compressedText)
                 
         if 'InteractiveData' in rowData and rowData['InteractiveData'] is not None:

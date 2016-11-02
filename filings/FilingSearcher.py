@@ -34,7 +34,7 @@ class FilingSearcher(object):
     def searchFilings(self): 
                   
         with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:  
-            pool.submit(self.searchFiling, self.searchTerms, 912750)
+            pool.submit(self.searchFiling, self.searchTerms, 1040593)
              
             if True:
                 return 
@@ -53,7 +53,10 @@ class FilingSearcher(object):
             
             collection = filingsCollection.find({"cik":cik}, {"RawText":1, "_id":1})
             
-            for item in collection:            
+            for item in collection:     
+                
+                #if item["_id"]
+                #TODO: CHECK DECODING PROCESS
                 text = zlib.decompress(item['RawText']).decode("utf-8")
                     
                 matches = self.findMatches(text, searchTerms)
@@ -73,28 +76,32 @@ class FilingSearcher(object):
     def findMatches(self, item, searchTerms):
         matches = {}
                 
-        #lines = item.split('\\\\n')
+        with open("Output.txt", "w") as text_file:
+            text_file.write(item)
         
-        #prevLine = lines[0]
-        #currentLine = lines[1]
-        #nextLine = lines[2]
+        lines = item.split('\n')
         
-        #for lineNum in range(2, len(lines)):
-        #    print(prevLine + currentLine + nextLine)
+        prevLine = lines[0]
+        currentLine = lines[1]
+        nextLine = lines[2]
+        
+        for nextlineNum in range(3, len(lines)):
+            #print(prevLine + currentLine + nextLine)
                 
-        for bucket in searchTerms:
-            for string in searchTerms[bucket]:
-                #match = re.search(pattern, item)
-                
-                #pattern = "((.*\n){2})(.*)"+ string + "(.*)((.*\n){2})"
-                #print('Found "{}" in "{}" from {} to {} ("{}")'.format(match.re.pattern, match.string, s, e, item[s:e]))
-                
-                if string in item:
-                    if bucket not in matches or len(matches[bucket]) == 0:
-                        matches[bucket] = []
-                    
-                    matches[bucket].append(string)
-                    
+            for bucket in searchTerms:
+                for string in searchTerms[bucket]:                    
+                    if string in currentLine:
+                        print("Match found! {} in {}".format(string, currentLine))
+                        
+                        if bucket not in matches or len(matches[bucket]) == 0:
+                            matches[bucket] = []
+                        
+                        matches[bucket].append(string)
+
+            prevLine = lines[nextlineNum-2]
+            currentLine = lines[nextlineNum-1]
+            nextLine = lines[nextlineNum]
+                            
         return matches
             
 cik_codes = SECCoverage().getSearchTerms()
