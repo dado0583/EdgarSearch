@@ -20,6 +20,7 @@ from config.MongoDb import MongoDb
 from config.MongoDb import Env
 from sec_config.Coverage import SECCoverage
 from sec_config.SearchTerms import SearchTerms
+import json
 
 class FilingSearcher(object):
     domain = 'https://www.sec.gov'
@@ -33,7 +34,7 @@ class FilingSearcher(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchAllFilings(self):                   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:  
+        with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:  
             #pool.submit(self.searchFiling, self.searchTerms, 879101)
              
             #if True:
@@ -49,18 +50,24 @@ class FilingSearcher(object):
         resultsData = {}
         resultsData["cik"] = cik
         resultsData["_id"] = item['_id']
+        resultsData["companyName"] = item['companyName']
+        resultsData["File/Film Number"] = item['File/Film Number']
+        resultsData["Filings"] = item['Filings']
+        resultsData["Filing Date"] = item['Filing Date']
+        resultsData["DocumentsLink"] = item['DocumentsLink']
+        
+        if 'InteractiveDataUrl' in item and item['InteractiveDataUrl'] is not None:
+            resultsData["InteractiveDataUrl"] = item['InteractiveDataUrl']
         
         text = zlib.decompress(item['RawText']).decode("utf-8")
         matchFound = False
         matches = self.findMatches(text)
         
         if len(matches) > 0:
-            print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], matches))
+            print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], str(matches)[:100]))
             resultsData["raw_matches"] = matches
             matchFound = True
-            
-
-                
+                  
         if 'InteractiveDataTables' in item and item['InteractiveDataTables'] is not None:
             tables = item['InteractiveDataTables']
             for table in tables:
@@ -74,14 +81,15 @@ class FilingSearcher(object):
                             print ("Match found! {} in {}".format(string, text[:100]))
                             if bucket not in matches or len(matches[bucket]) == 0:
                                 matches[bucket] = []
-                            matches[bucket].append({string, text})
+                            matches[bucket].append({string : text})
                 
                 if len(matches) > 0:
-                    print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], matches.keys()))
+                    print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], str(matches.keys())[:100]))
                     resultsData["table_matches"] = matches
                     matchFound = True
         
         if matchFound:
+            print ("{} Saving results: {}".format(str(datetime.datetime.now()), resultsData['_id']))
             searchCollection.save(resultsData)
 
     def searchFilings(self, cik):
@@ -113,16 +121,19 @@ class FilingSearcher(object):
             for bucket in self.searchTerms:
                 for string in self.searchTerms[bucket]:                    
                     if string in currentLine:
-                        print("Match found! {} in {}".format(string, currentLine))
+                        if len(currentLine) > 100:
+                            pass
+                        
+                        print("Match found! {} in {}".format(string, currentLine[:100]))
                         
                         if bucket not in matches or len(matches[bucket]) == 0:
                             matches[bucket] = []
                         
                         matches[bucket].append({
-                            string, 
-                            str(nextlineNum-2) +":"+ prevLine +os.linesep+
-                            str(nextlineNum-1) +":"+ currentLine +os.linesep+
-                            str(nextlineNum) +":"+ nextLine})
+                            string : 
+                                str(nextlineNum-2) +":"+ prevLine +os.linesep+
+                                str(nextlineNum-1) +":"+ currentLine +os.linesep+
+                                str(nextlineNum) +":"+ nextLine})
 
             prevLine = lines[nextlineNum-2]
             currentLine = lines[nextlineNum-1]

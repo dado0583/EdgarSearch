@@ -129,7 +129,7 @@ class FilingFinder(object):
                             self.addInfo(rowData) 
                         
                             try:
-                                print('{} Saving file for {}'.format(str(datetime.datetime.now()), rowData["_id"]))
+                                print('{} Saving filing for {}'.format(str(datetime.datetime.now()), rowData["_id"]))
                                 filingsCollection.save(rowData)
                             except:
                                 print('Cutting down file for {}'.format(rowData["_id"]))

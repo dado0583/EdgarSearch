@@ -23,10 +23,7 @@ class MongoDb(object):
     
     def getMongo(self):
         return self.mongodb 
-    
-    def getMongo(self):
-        return self.mongodb 
-    
+        
     def getDb(self, name):
         return self.mongodb[name] 
 
