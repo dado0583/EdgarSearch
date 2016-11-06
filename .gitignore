@@ -3,3 +3,7 @@
 *.pyc
 venv
 
+.project
+.pydevproject
+.settings
+
