@@ -36,10 +36,18 @@ from config.Utils import getRaw
 from config.Utils import getsoup
 from sec_config.Coverage import SECCoverage
 
+from sec_config.SearchTerms import SearchTerms
+from filings.FilingSearcher import FilingSearcher
+
+
 #from sec_coverage.Coverage import SECCoverage
 class FilingFinder(object):
     domain = 'https://www.sec.gov'
     baseUrl = domain+ '/cgi-bin/browse-edgar?action=getcompany&CIK={}&type=&dateb=&owner=exclude&start={}&count={}'    
+        
+    
+    searchingTerms = SearchTerms().getSearchTerms()
+    searcher = FilingSearcher(ciks=[], searchTerms=searchingTerms)
         
     def __init__(self, filingType="All", ciks=[]):
         self.filingType=filingType
@@ -48,7 +56,7 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:    
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:    
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
                         
@@ -73,63 +81,69 @@ class FilingFinder(object):
     def searchFiling(self, cik):
         print('Finding filings for CIK:{}'.format(str(cik)))
                 
-        count = 100
-        filingsCollection = MongoDb().getDb('sec')['filings']
+        try:
+            count = 100
+            filingsCollection = MongoDb().getDb('sec')['filings']
+                    
+            for page in range(1, 1000):
+                soup = getsoup(FilingFinder.baseUrl.format(cik, count*page, count))
+                table = soup.find('table', {"class":"tableFile2"})
+                headers = []         
                 
-        for page in range(1, 1000):
-            soup = getsoup(FilingFinder.baseUrl.format(cik, count*page, count))
-            table = soup.find('table', {"class":"tableFile2"})
-            headers = []         
-            
-            companyName = "Unknown"
-            
-            try:
-                companyName = re.findall(r'.*(?=\sCIK)', soup.find('span', {"class":"companyName"}).text)[0]
-            except:
-                pass
-                            
-            if table is None:
-                continue
-            
-            for tr in table.find_all("tr"):
-                rowData = {}
-                
-                if len(headers) == 0:
-                    for th in tr.find_all('th'):
-                        headers.append(str(th.text).rstrip())
-                
-                tds = tr.find_all('td')
+                companyName = "Unknown"
                 
                 try:
-                    for i in range(0, len(tds)):
-                        self.getContents(rowData, headers[i], tds[i])
-                        
-                    if (len(rowData)> 0 
-                            and 'File/Film Number' in rowData
-                            and self.filter(rowData["Filings"])):
-                        
-                        rowData["_id"] = rowData['File/Film Number']  
-                        rowData["cik"] = cik    
-                        rowData["companyName"] = companyName    
-                        rowData["_timestamp"] = datetime.datetime.now()
-
-                        if filingsCollection.find({'_id': rowData["_id"]},{"_id":1}).count() > 0:
-                            continue
-
-                        print('Found Filing {}, file number {} for {}/{}'.format(rowData["Filings"], rowData["_id"], companyName, cik))                                                                        
-                        self.addInfo(rowData) 
+                    companyName = re.findall(r'.*(?=\sCIK)', soup.find('span', {"class":"companyName"}).text)[0]
+                except:
+                    pass
+                                
+                if table is None:
+                    continue
+                
+                for tr in table.find_all("tr"):
+                    rowData = {}
                     
-                        try:
-                            print('{} Saving file for {}'.format(str(datetime.datetime.now()), rowData["_id"]))
-                            filingsCollection.save(rowData)
-                        except:
-                            print('Cutting down file for {}'.format(rowData["_id"]))
-                            filingsCollection.save(rowData)
+                    if len(headers) == 0:
+                        for th in tr.find_all('th'):
+                            headers.append(str(th.text).rstrip())
+                    
+                    tds = tr.find_all('td')
+                    
+                    try:
+                        for i in range(0, len(tds)):
+                            self.getContents(rowData, headers[i], tds[i])
                             
-                except Exception as e:
-                    traceback.print_exc(file=sys.stdout)
-                    logging.exception(e)
-                    print(str(tr))
+                        if (len(rowData)> 0 
+                                and 'File/Film Number' in rowData
+                                and self.filter(rowData["Filings"])):
+                            
+                            rowData["_id"] = rowData['File/Film Number']  
+                            rowData["cik"] = cik    
+                            rowData["companyName"] = companyName    
+                            rowData["_timestamp"] = datetime.datetime.now()
+    
+                            if filingsCollection.find({'_id': rowData["_id"]},{"_id":1}).count() > 0:
+                                continue
+    
+                            print('Found Filing {}, file number {} for {}/{}'.format(rowData["Filings"], rowData["_id"], companyName, cik))                                                                        
+                            self.addInfo(rowData) 
+                        
+                            try:
+                                print('{} Saving file for {}'.format(str(datetime.datetime.now()), rowData["_id"]))
+                                filingsCollection.save(rowData)
+                            except:
+                                print('Cutting down file for {}'.format(rowData["_id"]))
+                                filingsCollection.save(rowData)
+                             
+                            FilingFinder.searcher.searchFiling(cik, rowData)   
+                    except Exception as e:
+                        traceback.print_exc(file=sys.stdout)
+                        logging.exception(e)
+                        print(str(tr))
+        except Exception as e:
+            traceback.print_exc(file=sys.stdout)
+            logging.exception(e)
+            print(str(tr))
                  
     def addInfo(self, rowData):        
         if 'DocumentsLink' in rowData and rowData['DocumentsLink'] is not None:
@@ -150,7 +164,7 @@ class FilingFinder(object):
         scriptWithReportsLinks = soup.find('script', text=re.compile(".*InstanceReportXslt.*"))
         
         urls = []
-        for line in scriptWithReportsLinks.text.split('\\n'):
+        for line in scriptWithReportsLinks.text.splitlines():
             try:
                 url = FilingFinder.domain + re.findall("/Archives.*[\.htm|\.xml]", line)[0]
                                 
@@ -167,8 +181,7 @@ class FilingFinder(object):
             reportsData.append({"url":url, "html": soup.html.encode("utf-8")})
                         
         rowData['InteractiveDataTables'] = reportsData 
-
-  
+          
     def filter(self, filings):
         if ("10-Q" in filings
                 or "10-K" in filings):
@@ -176,6 +189,8 @@ class FilingFinder(object):
         else:
             return False
         
-cik_codes = SECCoverage().getSearchTerms()
-FilingFinder(ciks=cik_codes).searchFilings()
+            
+if __name__ == "__main__":
+    cik_codes = SECCoverage().getSearchTerms()
+    FilingFinder(ciks=cik_codes).searchFilings()
             
