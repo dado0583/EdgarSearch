@@ -59,24 +59,27 @@ class FilingSearcher(object):
             resultsData["raw_matches"] = matches
             matchFound = True
             
-        tables = item['InteractiveDataTables']
-        for table in tables:
-            url = table["url"]
-            text = str(table['html'])
-            matches = {}
-            
-            for bucket in self.searchTerms:
-                for string in self.searchTerms[bucket]:
-                    if string in text:
-                        print ("Match found! {} in {}".format(string, text[:100]))
-                        if bucket not in matches or len(matches[bucket]) == 0:
-                            matches[bucket] = []
-                        matches[bucket].append({string, text})
-            
-            if len(matches) > 0:
-                print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], matches))
-                resultsData["table_matches"] = matches
-                matchFound = True
+
+                
+        if 'InteractiveDataTables' in item and item['InteractiveDataTables'] is not None:
+            tables = item['InteractiveDataTables']
+            for table in tables:
+                url = table["url"]
+                text = str(table['html'])
+                matches = {}
+                
+                for bucket in self.searchTerms:
+                    for string in self.searchTerms[bucket]:
+                        if string in text:
+                            print ("Match found! {} in {}".format(string, text[:100]))
+                            if bucket not in matches or len(matches[bucket]) == 0:
+                                matches[bucket] = []
+                            matches[bucket].append({string, text})
+                
+                if len(matches) > 0:
+                    print ("{} Matches for {} (ID={}) are {}".format(str(datetime.datetime.now()), cik, item['_id'], matches.keys()))
+                    resultsData["table_matches"] = matches
+                    matchFound = True
         
         if matchFound:
             searchCollection.save(resultsData)
