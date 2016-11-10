@@ -56,7 +56,7 @@ class FilingFinder(object):
         #pool.submit(outputRaceResults, url)  
             
     def searchFilings(self):   
-        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:    
+        with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:    
             for cik in self.ciks:
                 pool.submit(self.searchFiling, cik)  
                         
