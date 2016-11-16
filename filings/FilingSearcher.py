@@ -45,7 +45,7 @@ class FilingSearcher(object):
                 pool.submit(self.searchFiling, self.searchTerms, cik) 
 
     def searchFiling(self, cik, item):
-        searchCollection = MongoDb(Env.dev).getDb('sec')['searchresults']
+        searchCollection = MongoDb(Env.dev).getDb('edgar')['searchresults']
             
         resultsData = {}
         resultsData["cik"] = cik
@@ -53,7 +53,7 @@ class FilingSearcher(object):
         resultsData["companyName"] = item['companyName']
         resultsData["File/Film Number"] = item['File/Film Number']
         resultsData["Filings"] = item['Filings']
-        resultsData["Filing Date"] = item['Filing Date']
+        resultsData["Filing Date"] = item['Filing Date'] if 'Filing Date' in item else None
         resultsData["DocumentsLink"] = item['DocumentsLink']
         
         if 'InteractiveDataUrl' in item and item['InteractiveDataUrl'] is not None:
@@ -95,7 +95,7 @@ class FilingSearcher(object):
     def searchFilings(self, cik):
         try:
             print('{} Searching filings for CIK:{}'.format(str(datetime.datetime.now()), str(cik)))                
-            filingsCollection = MongoDb().getDb('sec')['filings']
+            filingsCollection = MongoDb().getDb('edgar')['filings']
             
             collection = filingsCollection.find({"cik":cik})#{"_id": "001-36011/131050730"}, {"RawText":1, "InteractiveDataTables":1, "_id":1})
                         
